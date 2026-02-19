@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v2.0.10
         with:
+          repo: armortools
           owner: armory3d
           base: main
           head: main
