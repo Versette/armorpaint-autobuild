@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: armory3d:main
+    mergeMethod: rebase
+    mergeUnstable: true
